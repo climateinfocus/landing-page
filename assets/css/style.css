@@ -108,3 +108,30 @@ body {
 .site-cta::after {
   margin-left: .3rem;
 }
+
+.site-socials {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.site-socials__icon {
+  margin: 0 .5rem;
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  transition: transform .07s ease;
+}
+
+.site-socials__icon:hover {
+  transform: scale(1.07);
+}
+
+.site-socials__icon a {
+  color: inherit;
+}
+
+.site-socials__icon svg {
+  width: 100%;
+  height: 100%
+}
